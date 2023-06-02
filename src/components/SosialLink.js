@@ -3,7 +3,7 @@ import React from 'react'
 const SosialLink = ({href, icon, itemClass}) => {
   return (
     <li>
-    <a href={href} target="_blank" className={itemClass}><i className={icon}></i></a>
+    <a href={href}  className={itemClass}><i className={icon}></i></a>
     </li>
   )
 }
